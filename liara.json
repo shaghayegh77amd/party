@@ -1,0 +1,13 @@
+{
+  "port": 3000,
+  "platform": "next",
+  "app": "nima-shaghayegh",
+  "build": {
+    "location": "iran"
+  },
+  "next": {
+    "nodeVersion": "22",
+    "mirror": false
+  },
+  "disks": []
+}
