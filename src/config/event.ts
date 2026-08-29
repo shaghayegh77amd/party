@@ -32,7 +32,8 @@ export const eventConfig = {
     venueName: "",
     address: "آدرس دقیق به‌زودی اعلام می‌شه",
     // TODO: replace with a real Google Maps share link once the venue is finalized.
-    mapUrl: "https://maps.google.com",
+    mapUrl:
+      "https://www.google.com/maps/place/35%C2%B056'20.3%22N+50%C2%B044'21.5%22E/@35.9389601,50.7367301,17z/data=!3m1!4b1!4m4!3m3!8m2!3d35.9389601!4d50.739305!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
   },
 
   hero: {

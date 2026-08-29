@@ -54,7 +54,7 @@ export function Countdown() {
         {finished ? (
           <p className="text-center text-lg leading-8">{eventConfig.countdown.finishedMessage}</p>
         ) : (
-          <div className="flex items-stretch justify-between divide-x divide-x-reverse divide-ivory-50/15 flex-row-reverse">
+          <div className="flex items-stretch justify-between divide-x divide-ivory-50/15">
             <Unit value={values?.seconds} label={eventConfig.countdown.labels.seconds} />
             <Unit value={values?.minutes} label={eventConfig.countdown.labels.minutes} />
             <Unit value={values?.hours} label={eventConfig.countdown.labels.hours} />

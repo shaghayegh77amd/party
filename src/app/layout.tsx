@@ -17,7 +17,7 @@ const nastaliq = Noto_Nastaliq_Urdu({
 
 export const metadata: Metadata = {
   title: "شقایق و نیما",
-  description: "دعوت‌نامه‌ی عروسی شقایق و نیما",
+  description: "دعوت‌نامه‌ی جشن شقایق و نیما",
   robots: {
     index: false,
     follow: false,

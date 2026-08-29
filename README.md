@@ -1,4 +1,4 @@
-# شقایق و نیما — دعوت‌نامه عروسی
+# شقایق و نیما — دعوت‌نامه جشن
 
 A mobile-first wedding invitation site with a real backend for RSVPs and a
 password-protected admin dashboard.
@@ -21,10 +21,10 @@ Copy the example file and fill in real values:
 cp .env.example .env
 ```
 
-| Variable         | Description                                                                 |
-| ---------------- | ---------------------------------------------------------------------------- |
-| `DATABASE_URL`   | PostgreSQL connection string.                                                |
-| `ADMIN_PASSWORD` | The password required to access `/admin`. Pick something long and random.   |
+| Variable         | Description                                                                                |
+| ---------------- | ------------------------------------------------------------------------------------------ |
+| `DATABASE_URL`   | PostgreSQL connection string.                                                              |
+| `ADMIN_PASSWORD` | The password required to access `/admin`. Pick something long and random.                  |
 | `SESSION_SECRET` | Random secret used to sign the admin session cookie. Generate with `openssl rand -hex 32`. |
 
 ## 3. Database setup
