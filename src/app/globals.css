@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --color-ivory-50: #faf7f1;
+  --color-ivory-100: #f5f0e6;
+  --color-ivory-200: #ede6d8;
+  --color-ivory-300: #ddd3bd;
+
+  --color-olive-900: #3a3d2e;
+  --color-olive-800: #454935;
+  --color-olive-700: #565b43;
+  --color-olive-600: #6a6f53;
+  --color-olive-400: #9a9c82;
+  --color-olive-200: #c7c6b2;
+
+  --color-ink-900: #292a21;
+  --color-ink-600: #5c5b4d;
+  --color-ink-400: #8b8878;
+}
+
+@theme inline {
+  --color-ivory-50: var(--color-ivory-50);
+  --color-ivory-100: var(--color-ivory-100);
+  --color-ivory-200: var(--color-ivory-200);
+  --color-ivory-300: var(--color-ivory-300);
+
+  --color-olive-900: var(--color-olive-900);
+  --color-olive-800: var(--color-olive-800);
+  --color-olive-700: var(--color-olive-700);
+  --color-olive-600: var(--color-olive-600);
+  --color-olive-400: var(--color-olive-400);
+  --color-olive-200: var(--color-olive-200);
+
+  --color-ink-900: var(--color-ink-900);
+  --color-ink-600: var(--color-ink-600);
+  --color-ink-400: var(--color-ink-400);
+
+  --font-sans: var(--font-vazirmatn);
+  --font-script: var(--font-nastaliq);
+}
+
+body {
+  background: var(--color-ivory-200);
+  color: var(--color-ink-900);
+}
+
+/* Persian text renders more evenly with this feature set on Vazirmatn. */
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}

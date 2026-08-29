@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum AttendanceStatus {
+  COMING_WITH_LOVE
+  DEFINITELY_COMING
+  NOT_COMING
+}
+
+model RSVP {
+  id               String           @id @default(cuid())
+  guestName        String
+  attendanceStatus AttendanceStatus
+  hasCompanion     Boolean?
+  companionName    String?
+  optionalNote     String?
+  userAgent        String?
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+
+  @@index([createdAt])
+}
